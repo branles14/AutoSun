@@ -126,19 +126,127 @@
         </activity>
 
         <activity
-            android:name="com.joaomgcd.taskerpluginsample.tasker.gottime.ActivityConfigGotTime"
+            android:name=".tasker.sunevents.EventAstronomicalDawn"
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
-            android:label="Got Time">
+            android:label="@string/astronomical_dawn">
             <intent-filter>
                 <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".tasker.playstatechanged.PlayStateChangedActivity"
+            android:name=".tasker.sunevents.EventNauticalDawn"
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
-            android:label="Play State Changed">
+            android:label="@string/nautical_dawn">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventCivilDawn"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/civil_dawn">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventSunrise"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/sunrise">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventSunset"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/sunset">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventCivilDusk"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/civil_dusk">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventNauticalDusk"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/nautical_dusk">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventAstronomicalDusk"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/astronomical_dusk">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventAngle35"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/angle_35">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventAngle40"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/angle_40">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventAngle60"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/angle_60">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventAngle65"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/angle_65">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventAngle70"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/angle_70">
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tasker.sunevents.EventAngle75"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/angle_75">
             <intent-filter>
                 <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
             </intent-filter>
@@ -150,15 +258,6 @@
             android:label="Basic Action">
             <intent-filter>
                 <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".tasker.basic.ActivityConfigBasicEvent"
-            android:exported="true"
-            android:icon="@mipmap/ic_launcher"
-            android:label="Basic Event">
-            <intent-filter>
-                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
             </intent-filter>
         </activity>
         <activity
