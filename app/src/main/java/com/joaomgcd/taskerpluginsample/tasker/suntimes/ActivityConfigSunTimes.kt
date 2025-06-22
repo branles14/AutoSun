@@ -18,10 +18,12 @@ class ActivityConfigSunTimes :
     ActivityConfigTasker<SunTimesInput, SunTimesOutput, SunTimesRunner, SunTimesHelper, ActivityConfigGetsuntimesBinding>() {
     override fun getNewHelper(config: TaskerPluginConfig<SunTimesInput>) = SunTimesHelper(config)
 
-    override fun assignFromInput(input: TaskerInput<SunTimesInput>) = input.regular.run {
-        binding?.editTextLat?.setText(latitude?.toString() ?: "")
-        binding?.editTextLon?.setText(longitude?.toString() ?: "")
-        binding?.editTextFormat?.setText(format ?: "")
+    override fun assignFromInput(input: TaskerInput<SunTimesInput>) {
+        input.regular.run {
+            binding?.editTextLat?.setText(latitude?.toString() ?: "")
+            binding?.editTextLon?.setText(longitude?.toString() ?: "")
+            binding?.editTextFormat?.setText(format ?: "")
+        }
     }
 
     override val inputForTasker get() = TaskerInput(
