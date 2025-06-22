@@ -53,4 +53,15 @@
     <string name="time_taken_description">The time it took for the background work to complete in millis</string>
     <string name="result">Result</string>
     <string name="result_description">Text user input in the dialog</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="civil_dawn">Civil Dawn</string>
+    <string name="civil_dusk">Civil Dusk</string>
+    <string name="nautical_dawn">Nautical Dawn</string>
+    <string name="nautical_dusk">Nautical Dusk</string>
+    <string name="astronomical_dawn">Astronomical Dawn</string>
+    <string name="astronomical_dusk">Astronomical Dusk</string>
+    <string name="sun_times">Sun Times</string>
 </resources>
