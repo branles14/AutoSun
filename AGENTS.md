@@ -15,8 +15,7 @@ The plugin should provide a method to react to:
   - Civil dusk
   - Nautical dusk
   - Astronomical dusk
-
-The moment the sun reaches:
+- The moment the sun reaches:
   - 35°
   - 40°
   - 60°
