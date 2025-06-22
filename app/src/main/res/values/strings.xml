@@ -63,5 +63,11 @@
     <string name="nautical_dusk">Nautical Dusk</string>
     <string name="astronomical_dawn">Astronomical Dawn</string>
     <string name="astronomical_dusk">Astronomical Dusk</string>
+    <string name="angle_35">35&#176;</string>
+    <string name="angle_40">40&#176;</string>
+    <string name="angle_60">60&#176;</string>
+    <string name="angle_65">65&#176;</string>
+    <string name="angle_70">70&#176;</string>
+    <string name="angle_75">75&#176;</string>
     <string name="sun_times">Sun Times</string>
 </resources>
